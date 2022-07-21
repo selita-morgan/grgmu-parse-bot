@@ -97,7 +97,7 @@ async def process_help_command(message: types.Message):
         counter += 1
 
     has_less_than_we = summary_have - has_more_than_we
-    has_more_than_we = f"{has_more_than_we-1} человек имеют *больший* балл ( не включая Сашу )."
+    has_more_than_we = f"{has_more_than_we-1} человек имеют *больший* балл ( не включая Alex )."
     has_less_than_we = f"{has_less_than_we} человек имеют *меньший* балл."
 
     telegram_output = actual_timeday + f"\n\nПлан приема: {summary_need}" + f"\nПодано: {summary_have}" + f"\n\n{has_more_than_we}" + f"\n{has_less_than_we}" + f"\n\nДанные из таблицы можно увидеть ниже:\n\n" + f'\n'.join(client_text)
