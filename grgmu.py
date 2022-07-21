@@ -7,7 +7,7 @@ from aiogram.utils import executor
 import logging
 from datetime import datetime
 
-TOKEN = '5396593007:AAHk7uU4ue6hOjEdH-pr3ouwaq2cN9vCwCU'
+TOKEN = 'MY_TOKEN'
 
 logging.basicConfig(format=u'%(filename)+13s [ LINE:%(lineno)-4s] %(levelname)-8s [%(asctime)s] %(message)s',
                     level=logging.INFO)
